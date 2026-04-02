@@ -18,3 +18,7 @@ jobs:
 
       - name: Run command 2
         run: echo "Step 2"
+
+      - name: Build Docker Image
+        run: 
+          docker build -t devsecops-app .    
